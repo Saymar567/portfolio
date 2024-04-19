@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: aquamarine;
+    color: #333;
+    display: flex;
+    padding: 10px 20px;
+
+}
+
+#navbar-toggle {
+    cursor: pointer;
+    
+   
+}
+#navbar-toggle img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+#navbar-menu li {
+    padding: 10px;
+    list-style-type: none;
+    display: none;
+    transition: opacity 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar-menu.active li {
+    display: block;
+}
+#navbar-menu li:hover {
+    background-color: #555;
+    transition: background-color 0.3s ease;
+}
+.secondiv {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 30px;
+}
+#aboutme {
+    text-align: justify;
+    max-width: 75%;
+}
+#aboutme h2 {
+    margin-bottom: 10px;
+}
+#aboutme ul li {
+    margin-bottom: 10px;
+}
+aside {
+    margin-left: 20px;
+}
+aside img {
+    width: 250px;
+    height: auto;
+}
+aside button {
+    width: 250px;
+}
+.square {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+
+}
+.square.light {
+    background-color: #fff;
+}
+.square.dark {
+    background-color: #000;
+}
+
+#contactme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+#contactme p {
+    text-align: justify;
+   max-width: 75%;
+   padding-top: 20px ;
+}
+.linkedin {
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.linkedin img {
+width: 20px;
+height: 20px;
+}
